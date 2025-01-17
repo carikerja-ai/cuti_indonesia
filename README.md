@@ -1,29 +1,18 @@
-# poppy-dashboard
+# Daftar Cuti Indonesia 2025
 
-This template should help get you started developing with Vue 3 in Vite.
+Proyek ini adalah aplikasi web untuk menampilkan daftar cuti dan hari libur nasional di Indonesia tahun 2025 menggunakan API dari [DayOff API](https://dayoffapi.vercel.app/).
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Fitur
+- Menampilkan hari libur nasional 2025 dengan deskripsi dan status cuti (Cuti / Tidak Cuti).
+- Responsif dengan layout grid yang dinamis berdasarkan ukuran layar.
+- Menggunakan [Vue.js](https://vuejs.org/) dengan desain modern berbasis [Tailwind CSS](https://tailwindcss.com/).
 
-## Customize configuration
+## Teknologi yang Digunakan
+- **Frontend**: Vue.js
+- **CSS Framework**: Tailwind CSS
+- **API**: [DayOff API](https://dayoffapi.vercel.app/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+# Ucapan Terima Kasih
+Terima kasih kepada DayOff API yang menyediakan data libur nasional dan cuti bersama secara gratis.
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
